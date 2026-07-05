@@ -1,0 +1,18 @@
+{
+  "name": "highrise-admin-bot",
+  "version": "1.0.0",
+  "description": "A Highrise bot with welcome messages, persistent admin system, dance commands, teleport, and help commands. Deployable on Railway.",
+  "type": "module",
+  "main": "app.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "highrise.sdk.dev": "^1.0.0"
+  }
+}
